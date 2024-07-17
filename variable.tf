@@ -6,9 +6,6 @@ variable "vpc"{
     type = string
     default = "my_vpc"
 }
-variable "cidr_myvpc"{
-    default = "10.0.0.0/16"
-}
 
 variable "statefile_s3"{
     type = string
